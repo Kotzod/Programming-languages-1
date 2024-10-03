@@ -15,12 +15,12 @@ public class App {
             
             if (password.length() >= 8) {
                 for (int i = 0; i < password.length(); i++) {
-                    char currentChar = password.charAt(i);
-                    if (Character.isUpperCase(currentChar)) {
+                    char currentcharacter = password.charAt(i);
+                    if (Character.isUpperCase(currentcharacter)) {
                         uppercase = true;
-                    } else if (Character.isLowerCase(currentChar)) {
+                    } else if (Character.isLowerCase(currentcharacter)) {
                         lowercase = true;
-                    } else if (Character.isDigit(currentChar)) {
+                    } else if (Character.isDigit(currentcharacter)) {
                         digit = true;
                     }
                 }
