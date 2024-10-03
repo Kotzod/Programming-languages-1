@@ -1,9 +1,9 @@
-package week_40.e06;
+package week_40.e06; //I still do not know how to get rid of this
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Palindrome test, please enter some text:");
+        System.out.println("Palindrome test, please enter some text: ");
         String text = scanner.nextLine();
         String normaltext = text.toLowerCase();
         String reversedtext = "";
